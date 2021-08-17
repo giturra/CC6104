@@ -461,7 +461,7 @@ tapply(iris$Sepal.Width,iris$Species,summary)
    \text{AAD}(x) = \frac{1}{n}\sum_{i=1}^{n}|x_i-m(x)| 
   \end{displaymath}
   
-  \item Exercise: Program the function \verb+add+ in R, as a function that receives a vector \verb+x+ and a central mean function \verb+fun+. The absolute value is calculated with the command \verb+abs+:
+  \item Exercise: Program the function \verb+aad+ in R, as a function that receives a vector \verb+x+ and a central mean function \verb+fun+. The absolute value is calculated with the command \verb+abs+:
   
   \begin{verbatim}
 aad<-function(x,fun=median){
